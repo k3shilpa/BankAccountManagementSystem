@@ -12,3 +12,13 @@ Thumbs.db  # Windows
 
 # Ignore the JavaDoc documentation if you don’t want to include it
 doc/
+# Ignore IDE files
+*.class
+.idea/
+*.iml
+*.log
+/out/
+
+# Ignore macOS and Windows files
+.DS_Store
+Thumbs.db
